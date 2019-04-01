@@ -1,0 +1,195 @@
+.main-content {
+    float: left;
+    width: 900px;
+    margin-top: 45px;
+}
+
+.page-text_list_items {
+    width: 245px;
+    margin-right: 55px;
+    vertical-align: middle;
+}
+
+.page-text_list_items:last-child {
+    margin-right: 0px;
+}
+
+.page-text_list_items__image {
+    width: 75px;
+    height: 75px;
+    background: url("../../img/icon/circle.png")50% 50% no-repeat;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.page-text_list_items__image__flower {
+    width: 75px;
+    height: 75px;
+    background: url("../../img/icon/flower_white.png")50% 50% no-repeat;
+    position: absolute;
+}
+
+.page-text_list_items:hover .page-text_list_items__image__flower {
+    background: url("../../img/icon/flower_black.png")50% 50% no-repeat;
+}
+
+.page-text_list_items__image__star {
+    width: 75px;
+    height: 75px;
+    background: url("../../img/icon/star_white.png")50% 50% no-repeat;
+    position: absolute;
+}
+
+.page-text_list_items:hover .page-text_list_items__image__star {
+    background: url("../../img/icon/star_black.png")50% 50% no-repeat;
+}
+
+.page-text_list_items__image__paint {
+    width: 75px;
+    height: 75px;
+    background: url("../../img/icon/paint_white.png")50% 50% no-repeat;
+    position: absolute;
+}
+
+.page-text_list_items:hover .page-text_list_items__image__paint {
+    background: url("../../img/icon/paint_black.png")50% 50% no-repeat;
+}
+
+.page-text_list_items__caption {
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.page-text_list_items__content {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: lighter;
+    text-transform: none;
+}
+
+.page-text_list_items__content_list_items li {
+    margin-top: 15px;
+    background: url("../../img/pink-circle.png") 30px 10px no-repeat;
+}
+
+.feeds_contents {
+    margin-bottom: 55px;
+}
+
+.feeds_contents_image {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    float: left;
+}
+
+.feeds_contents_text {
+    margin-left: 10px;
+    float: left;
+}
+
+.feeds_contents_text_news {
+    font-size: 20px;
+    width: 700px;
+}
+
+.feeds_contents_image_item1 {
+    background: url("../../img/feeds/Layer\ 6.png");
+}
+
+.feeds_contents_image_item2 {
+    background: url("../../img/feeds/Layer\ 7.png");
+}
+
+.feeds_contents_image_item3 {
+    background: url("../../img/feeds/Layer\ 9.png");
+}
+.paginator{
+    margin-bottom: 70px;
+    text-align: center;
+}
+.paginator a{
+    display: inline-block;
+    min-width: 20px;
+    height: 40px;
+    padding: 0 10px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+
+}
+.paginator a:hover{
+    color: #ae2264;
+}
+a.paginator_active{
+    background:#27273e;
+    color: white;
+}
+.paginator .prev{
+    background: url("../../img/icon/prev.png") 50% 50% no-repeat;
+}
+.paginator .next{
+    background: url("../../img/icon/next.png")50% 50% no-repeat;
+}
+.comments_contents {
+    margin-bottom: 55px;
+}
+
+.comments_contents_image {
+    width: 160px;
+  height: 160px;
+    border-radius: 50%;
+    float: left;
+    background: url("../../img/comments/sprite_comments.png") 0 0 no-repeat;
+}
+
+.comments_contents_text {
+    margin-left: 10px;
+    float: left;
+}
+
+.comments_contents_text_news {
+    font-size: 20px;
+    width: 700px;
+}
+
+.comments_contents_image_item1 {
+    background-position: 0px 0px;
+}
+
+.comments_contents_image_item2 {
+    background-position: -160px 0px;
+}
+
+.comments_contents_no-image {
+    background: url("../../img/comments/logo-fig.png") 50% 50% no-repeat;
+    filter: grayscale(100%);
+}
+
+.comments_contents_image_item4 {
+    background-position: 0px -160px;
+}
+.sale{
+
+    width: 100%;
+    margin-bottom: 110px;
+    background: url("../../img/comments/sale.png") 50% 50% repeat;
+    padding: 50px 255px 50px 230px;
+}
+
+.sale__text{
+    color: #fff;
+    text-align: left;
+    
+}
+.text__color-pink{
+    color:#ec1e79;
+}

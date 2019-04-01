@@ -1,0 +1,97 @@
+.sidebar{
+    padding-right: 10px;
+    margin-top: 45px;
+    padding-left: 20px;
+    margin-right: 80px;
+}
+.nav-menu{
+    list-style: none;
+    padding-left: 15px;
+
+}
+/* активная*/
+.nav-menu__item.nav-menu__item_active .nav-menu__text{
+color: #000;
+}
+.nav-menu__item.nav-menu__item_active .nav-menu__icon-main{
+    background: url("../../img/icon/main_icon.png") 50% 50% no-repeat;
+
+}
+.nav-menu__item.nav-menu__item_active .nav-menu__icon-comments{
+    background: url("../../img/icon/feed_icon.png") 50% 50% no-repeat;
+
+}
+.nav-menu__item.nav-menu__item_active .nav-menu__icon-prices{
+    background: url("../../img/icon/wallet_icon.png") 50% 50% no-repeat;
+
+}
+/* меню */
+.nav-menu__item{
+    margin-bottom: 30px;
+}
+.nav-menu__link{
+    color: #221f1f;
+text-transform: uppercase;
+font-weight: bold;
+    text-decoration: none;
+}
+.nav-menu__text{
+    padding-left: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 122px;
+    color:#ec1e79;
+}
+.nav-menu__link:hover .nav-menu__text {
+    color:#000;
+}
+.nav-menu__icon{
+    width: 20px;;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav-menu__icon-main{
+    background: url("../../img/icon/main_icon_hover.png") 50% 50% no-repeat;
+    
+}
+.nav-menu__link:hover .nav-menu__icon-main{
+    background: url("../../img/icon/main_icon.png") 50% 50% no-repeat;
+}
+.nav-menu__icon-comments{
+ 
+    background: url("../../img/icon/feed_icon_hover.png") 50% 50% no-repeat;
+}
+ .nav-menu__link:hover .nav-menu__icon-comments{
+    background: url("../../img/icon/feed_icon.png") 50% 50% no-repeat;
+}
+.nav-menu__icon-prices{
+    float: left;
+    background: url("../../img/icon/wallet_icon_hover.png") 50% 50% no-repeat;
+    width: 18px;;
+    height: 15px;
+}
+.nav-menu__link:hover .nav-menu__icon-prices {
+    background: url("../../img/icon/wallet_icon.png") 50% 50% no-repeat;
+}
+.sidebar{
+    float: left;
+    width: 180px;
+}
+.page-caption{
+font-size: 49px;
+font-weight: bold;
+margin-bottom: 65px;
+margin-top: 30px;
+
+}
+.page-text_list{
+text-align: center;
+text-transform:uppercase;
+}
+.page-text_list_items{
+    display: inline-block;
+    width: 33,3%;
+    font-size: 12px;
+    font-weight: bold;
+}
